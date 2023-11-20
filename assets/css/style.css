@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@font-face{
+    font-family: 'konexy';
+    src: url(./konexy-font/KonexyPersonalUse-rg3wK.otf);
+}
+@font-face {
+    font-family: 'gilroy';
+    src: url(./Gilroy-Regular.ttf);
+}
+.view{
+    right: 0 !important;
+}
+.cross4{
+    transform: rotate(45deg);
+}
+.cross5{
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 10%;
+}
+.cross6{
+    display: none;
+}
+.display-none{
+    display: none;
+}
+.d-none{
+    display: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.pos-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+@media (max-width:1180px) {
+    .mr-10{
+        margin-right: 60px;
+    }
+}

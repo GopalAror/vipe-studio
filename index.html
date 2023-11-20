@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>vipe-studio</title>
+<meta name="title" content="vipe-studio">
+<meta name="description" content="wordpress page from tailwind">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://metatags.io/">
+<meta property="og:title" content="vipe-studio">
+<meta property="og:description" content="wordpress page from tailwind">
+<meta property="og:image" content="https://thumbs2.imgbox.com/2a/e3/Md7tEdfs_t.png">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://metatags.io/">
+<meta property="twitter:title" content="vipe-studio">
+<meta property="twitter:description" content="wordpress page from tailwind">
+<meta property="twitter:image" content="https://thumbs2.imgbox.com/2a/e3/Md7tEdfs_t.png">
+  <link rel="stylesheet" href="./output.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/image/apple-touch-icon.png" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="overflow-hidden">
+    <!-- back-to-top -->
+    <button onclick="scrollBtn()" id="topbtn" class="display-none rounded-[50%] bg-purple-700 text-white  border-0 font-konexy text-[10px] z-40 fixed bottom-0 right-0 mr-[30px] mb-[40px] h-[50px] w-[50px]"><span class="flex justify-center items-center"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+    </svg> </span></button>
+    <!-- preloder -->
+    <div id="preloder" class="h-screen bg-white flex justify-center items-center z-[60] pos-fixed w-full">
+           <img class="w-[40%]" src="./assets/image/sec8-img.png" alt="sec8">
+    </div>
+  <div class="bg-black">
+    <header class="overflow-hidden">
+      <div class="flex min-h-screen flex-col ">
+        <div class="container max-w-[1320px] mx-auto px-3">
+          <nav class="h-[90px] flex items-center justify-between">
+            <img class="max-[1180px]:flex hidden max-[400px]:w-[40%]" src="./assets/image/Logo.png" alt="logo">
+            <div class="flex items-center max-[1180px]:flex-col max-[1180px]:justify-center max-[1180px]:w-full max-[1180px]:fixed max-[1180px]:right-[-100%] max-[1180px]:top-0 max-[1180px]:h-full max-[1180px]:gap-[50px] max-[1180px]:transition-[.4s] max-[1180px]:bg-black  z-30 mobile">
+              <img src="./assets/image/Logo.png" alt="logo">
+              <div class="gap-4 flex max-[1180px]:flex-col">
+                <ul class="pl-[48px] max-[1180px]:p-0 flex max-[1180px]:flex-col gap-4 max-[1180px]:gap-[50px] max-[700px]:gap-[20px] items-center">
+                  <li class="group transition-[.5s]  drop flex items-center">
+                    <a class="text-white font-gilroy font-normal text-[16px] leading-[24px] relative" href="#">WordPress
+                      Solution</a><svg class="group-hover:rotate-180 transition-[.5s] ms-1"
+                      xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M16.8789 9.29297L12.5859 13.586L8.29291 9.29297L6.87891 10.707L12.5859 16.414L18.2929 10.707L16.8789 9.29297Z"
+                        fill="white" />
+                    </svg>
+                    <ul
+                      class="pl-0 m-0 absolute top-[9%] hidden group-hover:block transition-[.5s] bg-black z-10 rounded-2xl p-3">
+                      <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                          href="#">WordPress Development</a></li>
+                      <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                          href="#">WooCommerce Development</a></li>
+                      <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                          href="#">WordPress Maintenance</a></li>
+                      <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                          href="#">Speed Optimization</a></li>
+                      <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                          href="#">Dedicated WordPress Developer</a></li>
+                    </ul>
+                  </li>
+                  <li class="group drop flex items-center">
+                    <a class="text-white font-gilroy font-normal text-[16px] leading-[24px] relative"
+                      href="#">Services</a><svg class="group-hover:rotate-180 ms-1 transition-[.5s] "
+                      xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M16.8789 9.29297L12.5859 13.586L8.29291 9.29297L6.87891 10.707L12.5859 16.414L18.2929 10.707L16.8789 9.29297Z"
+                        fill="white" />
+                    </svg>
+
+                    <ul class="pl-0 m-0 absolute top-[9%] hidden group-hover:block bg-black z-10 rounded-2xl p-3">
+                      <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                          href="#">WordPress Hosting</a></li>
+                      <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                          href="#">Custom WordPress Plugins</a></li>
+                      <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                          href="#">Custom WordPress Theme</a></li>
+                      <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                          href="#">CMS to WordPress</a></li>
+                      <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                          href="#">WordPress Malware Removal</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="text-white font-gilroy font-normal text-[16px] leading-[24px]" href="#">Portfolio</a>
+                  </li>
+                  <li class="group drop flex items-center">
+                    <a class="text-white font-gilroy font-normal text-[16px] leading-[24px] relative"
+                      href="#">About</a><svg class="group-hover:rotate-180 ms-1 transition-[.5s] "
+                      xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                      <path
+                        d="M16.8789 9.29297L12.5859 13.586L8.29291 9.29297L6.87891 10.707L12.5859 16.414L18.2929 10.707L16.8789 9.29297Z"
+                        fill="white" />
+                    </svg>
+
+                    <ul
+                      class="pl-0 m-0 absolute max-w-[248px] top-[9%] hidden group-hover:block bg-black rounded-2xl p-3 z-30">
+                      <li class="pt-2"><a
+                          class="text-white font-gilroy font-normal text-[16px] leading-[24px] max-w-[148px] links"
+                          href="#">WordPress Plugins to Create an
+                          Effective Newsletter 03.01.2022</a></li>
+                      <li class="pt-2"><a
+                          class="text-white font-gilroy font-normal text-[16px] leading-[24px] links  max-w-[248px]"
+                          href="#">What’s the Perfect Blog Post
+                          Length for Your WordPress Site’s SEO?
+                          02.01.2022</a></li>
+                      <li class="pt-2"><a
+                          class="text-white font-gilroy font-normal text-[16px] leading-[24px] links max-w-[248px]"
+                          href="#">Reasons the Future of WordPress
+                          Is Headless 01.01.2022</a></li>
+
+                    </ul>
+                  </li>
+                  <li><a class="text-white font-gilroy font-normal text-[16px] leading-[24px]" href="#">Blog</a></li>
+                </ul>
+                <div class="max-[700px]:flex hidden items-center w-full">
+                  <div class="max-[1180px]:flex-col flex items-center justify-center min-[700px]:gap-[50px] gap-[20px]">
+                    <ul class="m-0 p-0">
+                      <li><a class="text-white font-gilroy font-normal text-[16px] leading-[24px]"
+                          href="tel:+1234567890 konexy">1 888 266-6917 (eu?)</a></li>
+                    </ul>
+                    <button
+                      class="bg-[#6022EA] text-white text-[16px] leading-[24px] font-semibold font-gilroy rounded-3xl px-[24px] py-[10px] gap-[10px] inline-flex shadow-[#0E051F] transition-all hover:bg-white hover:text-[#6022EA]">Contact
+                      Us</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="hidden gap-4 max-[700px]:flex mr-10">
+              <li class="group drop flex items-center">
+                <img src="./assets/image/global.svg" alt="globe">
+                <a class="text-white font-gilroy font-normal text-[16px] leading-[24px]" href="#">Eng</a><svg
+                  class="group-hover:rotate-180 ms-1" xmlns="http://www.w3.org/2000/svg" width="25" height="24"
+                  viewBox="0 0 25 24" fill="none">
+                  <path
+                    d="M16.8789 9.29297L12.5859 13.586L8.29291 9.29297L6.87891 10.707L12.5859 16.414L18.2929 10.707L16.8789 9.29297Z"
+                    fill="white" />
+                </svg>
+
+                <ul class="pl-0 m-0 absolute top-[9%] hidden group-hover:block bg-black z-30 rounded-2xl p-3 pr-2 ">
+                  <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                      href="#">hindi</a></li>
+                  <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                      href="#">punjabi</a></li>
+                  <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                      href="#">spanish</a></li>
+                </ul>
+              </li>
+            </ul>
+            <label class="absolute right-2 flex-col hidden max-[1180px]:flex menu z-40">
+              <span class="bg-white h-1 w-10 mb-[7px] cross1 transition-[.3s] rounded-3xl"></span>
+              <span class="bg-white h-1 w-10 mb-[7px] cross2 transition-[.3s] rounded-3xl"></span>
+              <span class="bg-white h-1 w-10 cross3 transition-[.3s] rounded-3xl"></span>
+            </label>
+            <div class="flex max-[700px]:hidden items-center gap-4 mr-10">
+              <ul>
+                <li><a class="text-white font-gilroy font-normal text-[16px] leading-[24px]"
+                    href="tel:+1234567890 konexy">1 888 266-6917 (eu?)</a></li>
+              </ul>
+              <button
+                class="bg-[#6022EA] text-white font-gilroy text-[16px] leading-[24px] font-semibold rounded-3xl px-[24px] py-[10px] gap-[10px] inline-flex shadow-[#0E051F] transition-all hover:bg-white hover:text-[#6022EA]">Contact
+                Us</button>
+              <ul class="flex gap-4">
+                <li class="group drop flex items-center">
+                  <img src="./assets/image/global.svg" alt="globe">
+                  <a class="text-white font-gilroy font-normal text-[16px] leading-[24px] relative" href="#">Eng</a><svg
+                    class="group-hover:rotate-180 ms-1" xmlns="http://www.w3.org/2000/svg" width="25" height="24"
+                    viewBox="0 0 25 24" fill="none">
+                    <path
+                      d="M16.8789 9.29297L12.5859 13.586L8.29291 9.29297L6.87891 10.707L12.5859 16.414L18.2929 10.707L16.8789 9.29297Z"
+                      fill="white" />
+                  </svg>
+
+                  <ul class="pl-0 m-0 absolute top-[9%] hidden group-hover:block">
+                    <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                        href="#">hindi</a></li>
+                    <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                        href="#">punjabi</a></li>
+                    <li class="pt-2"><a class="text-white font-gilroy font-normal text-[16px] leading-[24px] links"
+                        href="#">spanish</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="container max-w-[1520px] px-[12px] mx-auto grow items-center flex">
+          <div class="grid lg:grid-cols-2">
+            <div>
+              <h1
+                class="after:content-[''] after:left-[-2%] after:bg-[#6022EA] after:h-full after:w-[5px] after:flex after:absolute after:top-0  relative xl:text-[72px] max-xl:text-[xxx-large] max-md:text-[50px] max-sm:text-[35px] font-konexy font-normal leading-[76px] text-white max-w-[646px]">
+                WordPress Development Agency</h1>
+              <p class="m-0 pt-[30px] font-gilroy text-white text-[24px] font-bold leading-[29px]">for Enterprise +
+                Friendly Team </p>
+              <p
+                class="m-0 text-white opacity-70 font-gilroy text-[16px] font-normal leading-[24px] pt-4 max-w-[592px]">
+                Vipe Studio is a WordPress Agency for development - a long-term partner for any WordPress service.
+                Websites and,online shops development, maintenance and customization is what we do best.</p>
+              <div class="flex items-center mt-[27px] gap-[34px]">
+                <button
+                  class="text-white font-semibold leading-[24px] font-gilroy text-[16px] bg-[#6022EA] gap-[10px] px-[40px] py-[12px] rounded-[80px] shadow-[0px_4px_20px_0px_rgba(96,34,234,0.20)] transition-all hover:bg-white hover:text-[#6022EA]">Get
+                  Started</button>
+                <span
+                  class="text-white font-gilroy text-[16px] font-normal opacity-70 leading-[24px] flex items-center justify-center gap-3 cursor-pointer"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <path
+                      d="M16 0C7.16429 0 0 7.16429 0 16C0 24.8357 7.16429 32 16 32C24.8357 32 32 24.8357 32 16C32 7.16429 24.8357 0 16 0ZM21.1464 16.2464L13.3464 21.9214C13.3037 21.9522 13.2533 21.9705 13.2008 21.9744C13.1482 21.9784 13.0957 21.9678 13.0488 21.9438C13.0019 21.9198 12.9626 21.8834 12.9351 21.8385C12.9075 21.7936 12.8929 21.7419 12.8929 21.6893V10.3464C12.8927 10.2937 12.9071 10.2419 12.9346 10.1968C12.962 10.1518 13.0014 10.1152 13.0484 10.0912C13.0954 10.0671 13.1481 10.0566 13.2007 10.0606C13.2533 10.0647 13.3037 10.0833 13.3464 10.1143L21.1464 15.7857C21.1833 15.8118 21.2133 15.8463 21.2341 15.8864C21.2548 15.9265 21.2657 15.9709 21.2657 16.0161C21.2657 16.0612 21.2548 16.1057 21.2341 16.1458C21.2133 16.1858 21.1833 16.2204 21.1464 16.2464V16.2464Z"
+                      fill="white" />
+                  </svg>What is Vipe? (1min)</span>
+              </div>
+            </div>
+            <div class="relative">
+              <img class="w-[90%] xl:translate-x-[60px] z-20 relative" src="./assets/image/home-img.png" alt="sec1">
+              <div class="w-[187px] h-[187px] bg-[#FA00FF] rounded-[50%] blur-[137px] absolute right-[-5%] top-[-12%]">
+              </div>
+              <div class="w-[187px] h-[187px] bg-[#6022EA] rounded-[50%] blur-[137px] absolute right-[8%] top-[8%]">
+              </div>
+              <div class="w-[187px] h-[187px] bg-[#FA00FF] rounded-[50%] blur-[137px] absolute left-[15%] bottom-[-2%]">
+              </div>
+              <div
+                class="w-[187px] h-[187px] bg-[#6022EA] rounded-[50%] blur-[137px] absolute left-[-2%] bottom-[-20%]">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-[rgba(255,255,255,0.05)] mt-[80px]">
+        <div class="container max-w-[1320px] mx-auto px-3">
+          <div class="grid lg:grid-cols-2 pb-[60px]">
+            <div>
+              <h4 class="text-white pt-[64px] font-normal font-konexy leading-normal text-[36px]">Tell us more....</h4>
+              <p class="m-0 text-white text-[16px] font-gilroy font-normal leading-[24px] max-w-[573px]">Lectus vitae
+                est ultrices sed. Sit aliquam commodo hac donec augue in quis. Magna vel orci sem neque fringilla et
+                lectus laoreet.</p>
+            </div>
+            <div class="">
+              <div
+                class="rounded-[80px] mt-[66px] bg-[#252525]  border-[1px] border-[#252525] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.25)] py-[20px] px-[30px] flex items-center justify-between">
+                <input
+                  class="text-white opacity-70 font-normal font-gilroy text-[16px] leading-[24px] bg-transparent w-full outline-0"
+                  type="text" placeholder="What do you need assistance with?">
+                <img class="cursor-pointer" src="./assets/image/icons_search.svg" alt="icons_search">
+              </div>
+              <div class="flex pt-[13px] justify-between">
+                <div class="gap-2 flex">
+                  <img class="cursor-pointer" src="./assets/image/refresh.svg" alt="refresh">
+                  <p class="font-gilroy font-normal text-[16px] text-white leading-[24px]">or send us an inquire? </p>
+                </div>
+                <p class="cursor-pointer text-white font-gilroy font-normal text-[16px] leading-[24px]">Learn more
+                  about...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <section class="bg-[#F6F6F6] overflow-hidden">
+    <div class="container max-w-[1320px] mx-auto px-3 py-[100px]">
+      <h2 class="text-black font-konexy font-normal md:text-[48px] text-[30px] leading-[normal] pb-[60px]">Featured on</h2>
+      <div class="grid xl:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 gap-[30px] justify-center" data-aos="fade-down">
+        <img src="./assets/image/sec2-img1.png" alt="sec2-img1">
+        <img src="./assets/image/sec2-img2.png" alt="sec2-img2">
+        <img src="./assets/image/sec2-img1.png" alt="sec2-img1">
+        <img src="./assets/image/sec2-img3.png" alt="sec2-img3">
+        <img src="./assets/image/sec2-img4.png" alt="sec2-img4">
+        <img src="./assets/image/sec2-img3.png" alt="sec2-img3">
+      </div>
+    </div>
+  </section>
+  <section class="bg-[#FEFEFE] overflow-hidden">
+    <div class="container max-w-[1320px] mx-auto px-3 py-[90px]">
+      <h2 class="text-black font-konexy font-normal md:text-[48px] text-[30px] leading-[normal] pb-[50px]">Integer et nisl non</h2>
+      <div class="grid  lg:grid-cols-3 md:grid-cols-2 gap-[32px]">
+        <div class="transition-all flex hover:shadow-[0px_20px_60.57143px_0px] hover:shadow-[#E5E9F6] p-[60px_38px_38px_38px] flex-col gap-[20px] items-center border border-[rgba(0,0,0,0.10)] rounded-[16px] bg-white" data-aos="fade-right">
+          <img src="./assets/image/Frame.svg" alt="Frame">
+          <p class="text-[#0D0D0D] text-center font-inter text-[24px] font-semibold leading-[31px]">Enterprise WordPress
+            Solutions </p>
+          <p class="text-black opacity-70 text-center font-gilroy font-normal text-[16px] leading-[24px]">Pretium, a et
+            sapien non nunc libero. Id dolor sed quis convallis turpis purus feugiat nibh eu. Auctor cras hac ac, sociis
+            diam montes, turpis commodo elit.</p>
+          <p class="cursor-pointer text-[#6022EA] font-semibold text-[16px] font-gilroy leading-[24px]">Learn More</p>
+        </div>
+        <div
+          class="transition-all flex hover:shadow-[0px_20px_60.57143px_0px] hover:shadow-[#E5E9F6] p-[60px_38px_38px_38px] flex-col gap-[20px] items-center border border-[rgba(0,0,0,0.10)] rounded-[16px] bg-white" data-aos="flip-right">
+          <img src="./assets/image/Frame1.svg" alt="Frame">
+          <p class="text-[#0D0D0D] text-center font-inter text-[24px] font-semibold leading-[31px]">Small to Mid Size
+            Business Development</p>
+          <p class="text-black opacity-70 text-center font-gilroy font-normal text-[16px] leading-[24px]">Et nunc
+            fermentum id amet tempus, elementum. Eget ac ultrices tortor, mattis amet blandit aenean amet. Massa diam
+            lacus, aliquam neque, cursus.</p>
+          <p class="cursor-pointer text-[#6022EA] font-semibold text-[16px] font-gilroy leading-[24px]">Learn More</p>
+        </div>
+        <div
+          class="transition-all flex hover:shadow-[0px_20px_60.57143px_0px] hover:shadow-[#E5E9F6] p-[60px_38px_38px_38px] flex-col gap-[20px] items-center border border-[rgba(0,0,0,0.10)] rounded-[16px] bg-white" data-aos="fade-left">
+          <img src="./assets/image/Frame2.svg" alt="Frame">
+          <p class="text-[#0D0D0D] text-center font-inter text-[24px] font-semibold leading-[31px]">Support &
+            Maintenance </p>
+          <p class="text-black opacity-70 text-center font-gilroy font-normal text-[16px] leading-[24px]">Ac donec ipsum
+            fringilla tortor, consectetur etiam sociis amet quis. Viverra volutpat pretium non in fusce tellus sed urna.
+            Pharetra ullamcorper et donec aliquam.</p>
+          <p class="cursor-pointer text-[#6022EA] font-semibold text-[16px] font-gilroy leading-[24px]">Learn More</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-black overflow-hidden">
+    <div class="container max-w-[1320px] mx-auto px-3 py-[80px]">
+      <div class="grid sm:grid-cols-1 lg:grid-cols-2 lg:justify-items-center content-center pb-12">
+        <h2 class="max-w-[533px] text-white font-konexy md:text-[48px] text-[30px] font-normal leading-[normal]">All Vipe Studio
+          WordPress services include:</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-0 gap-[50px]">
+          <div data-aos="fade-up">
+            <p class="text-white font-gilroy text-[24px] font-semibold leading-[31px] pb-[23px]">By Industry</p>
+            <div class="flex items-center pb-[11px] gap-[10px]">
+              <img src="./assets/image/check.svg" alt="check">
+              <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Lorem in elementum pellentesque
+              </p>
+            </div>
+            <div class="flex items-center pb-[11px] gap-[10px]">
+              <img src="./assets/image/check.svg" alt="check">
+              <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Molestie cursus praesent mi</p>
+            </div>
+            <div class="flex items-center pb-[11px] gap-[10px]">
+              <img src="./assets/image/check.svg" alt="check">
+              <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Leo sed viverra cras</p>
+            </div>
+            <div class="flex items-center pb-[11px] gap-[10px]">
+              <img src="./assets/image/check.svg" alt="check">
+              <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Laoreet feugiat ut at</p>
+            </div>
+            <div class="flex items-center pb-[11px] gap-[10px]">
+              <img src="./assets/image/check.svg" alt="check">
+              <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Risus aliquam molestie viverra
+              </p>
+            </div>
+            <div class="flex items-center gap-[10px]">
+              <img src="./assets/image/check.svg" alt="check">
+              <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Diam enim pulvinar velit</p>
+            </div>
+          </div>
+          <div data-aos="fade-down">
+            <p class="text-white font-gilroy text-[24px] font-semibold leading-[31px] pb-[23px]">By Services</p>
+            <div class="flex items-center pb-[11px] gap-[10px]">
+              <img src="./assets/image/check.svg" alt="check">
+              <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Accumsan, dui a semper</p>
+            </div>
+            <div class="flex items-center pb-[11px] gap-[10px]">
+              <img src="./assets/image/check.svg" alt="check">
+              <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Interdum malesuada vulputate
+                neque</p>
+            </div>
+            <div class="flex items-center pb-[11px] gap-[10px]">
+              <img src="./assets/image/check.svg" alt="check">
+              <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Nullam non a, morbi</p>
+            </div>
+            <div class="flex items-center pb-[11px] gap-[10px]">
+              <img src="./assets/image/check.svg" alt="check">
+              <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Arcu morbi leo eu</p>
+            </div>
+            <div class="flex items-center pb-[11px] gap-[10px]">
+              <img src="./assets/image/check.svg" alt="check">
+              <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Viverra venenatis, in ornare</p>
+            </div>
+            <div class="flex items-center pb-[11px] gap-[10px]">
+              <img src="./assets/image/check.svg" alt="check">
+              <p class="text-white font-gilroy text-[16px] leading-[24px] font-normal">Erat id aliquam habitant</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container max-w-[1320px] mx-auto px-3 pb-[80px] relative">
+      <div class="w-[174px] h-[174px] bg-[#6022EA] rounded-[50%] blur-[137px] absolute right-[15%] bottom-[-12%]">
+      </div>
+      <div class="w-[174px] h-[174px] bg-[#FA00FF] rounded-[50%] blur-[137px] absolute right-[-5%] top-[50%]">
+      </div>
+      <div class="w-[174px] h-[174px] bg-[#FA00FF] rounded-[50%] blur-[137px] absolute left-[1%] top-[10%]">
+      </div>
+      <div class="w-[174px] h-[174px] bg-[#6022EA] rounded-[50%] blur-[137px] absolute left-[-10%] top-[-8%]">
+      </div>
+      <div class="bg-black rounded-[25px] p-[27px_32px] grid lg:grid-cols-3 md:grid-cols-2  relative z-10 gap-[20px]" data-aos="flip-up">
+        <div class="lg:order-1 order-2">
+          <p class="lg:max-w-[324px] text-white font-konexy font-normal text-[35px] ">Not Sure which service you need yet?
+          </p>
+          <button class="font-gilroy mt-[38px] text-white font-semibold text-[16px] leading-[24px] bg-[#6022EA] rounded-[80px] gap-[10px] px-[24px] py-[10px] inline-flex transition-all hover:bg-white hover:text-[#6022EA]">Schedule
+            An Appointment</button>
+        </div>
+        <div class="lg:order-2 order-3">
+          <p class="text-white text-[24px] font-gilroy leading-[31px] font-bold max-w-[386px]">20-m free consultation
+            that will help us identifyif you need</p>
+          <div class="flex items-center gap-[10px] pt-[25px] pb-[15px]">
+            <img src="./assets/image/check-simple.svg" alt="check">
+            <p class="text-white font-gilroy text-[16px] font-normal leading-[24px]">Custom WordPress Development</p>
+          </div>
+          <div class="flex items-center gap-[10px] pb-[15px]">
+            <img src="./assets/image/check-simple.svg" alt="check">
+            <p class="text-white font-gilroy text-[16px] font-normal leading-[24px]">Support & Maintenance</p>
+          </div>
+          <div class="flex items-center gap-[10px] pb-[15px]">
+            <img src="./assets/image/check-simple.svg" alt="check">
+            <p class="text-white font-gilroy text-[16px] font-normal leading-[24px]">Other WordPress Service</p>
+          </div>
+          <div class="flex items-center gap-[10px] pb-[15px]">
+            <img src="./assets/image/check-simple.svg" alt="check">
+            <p class="text-white font-gilroy text-[16px] font-normal leading-[24px]">Technical Description & Discovery
+            </p>
+          </div>
+        </div>
+        <div class="lg:order-3 order-1">
+          <img class="w-full" src="./assets/image/sec4-img.png" alt="sec4-img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-[#F6F6F6] overflow-hidden">
+    <div class="container max-w-[1320px] mx-auto px-3 py-[70px]">
+      <h2 class="text-black md:text-[48px] text-[30px] font-konexy font-normal leading-[normal] max-w-[631px]">Long Term WordPress
+        Partner</h2>
+      <p
+        class="text-black font-gilroy text-[16px] font-normal leading-[24px] opacity-80 pt-[20px] pb-[30px] max-w-[693px]">
+        Our motto is the long-term partnership – we will not only develop your perfect website, but will be behind you
+        through the whole process. They already trusted us:</p>
+      <div class="grid lg:grid-cols-6 md:grid-cols-3 justify-center sm:grid-cols-2 gap-[20px]" data-aos="fade-down">
+        <img src="./assets/image/sec5-img1.png" alt="sec5-img1">
+        <img src="./assets/image/sec5-img2.png" alt="sec5-img2">
+        <img src="./assets/image/sec5-img3.png" alt="sec5-img3">
+        <img src="./assets/image/sec5-img2.png" alt="sec5-img2">
+        <img src="./assets/image/sec5-img4.png" alt="sec5-img4">
+        <img src="./assets/image/sec5-img2.png" alt="sec5-img2">
+      </div>
+    </div>
+  </section>
+  <section class="overflow-hidden">
+    <div class="container max-w-[1320px] mx-auto px-3 pt-[65px] pb-[90px]">
+      <div class="grid lg:grid-cols-2 items-center">
+        <div  data-aos="fade-up-right">
+          <img class="w-[90%]" src="./assets/image/sec6-img.png" alt="sec6-img">
+        </div>
+        <div  data-aos="fade-up-left">
+          <h2 class="text-black text-[48px] font-konexy font-normal leading-[normal] max-w-[670px]"> <span
+              class="text-[#6022EA]">Agile WordPress </span>Development Project management</h2>
+          <p class="text-black max-w-[572px] font-gilroy text-[16px] leading-[24px] font-normal pb-[32px]">Suspendisse
+            consequat egestas arcu et et. Viverra quis euismod neque luctus bibendum. Fringilla in nibh fringilla
+            vulputate in. Elit, ultricies vitae pulvinar arcu dignissim ac non rutrum. Lacus tortor sollicitudin risus
+            eget euismod in bibendum turpis. </p>
+          <button
+            class="text-white font-gilroy tex-[16px] font-semibold leading-[24px] bg-[#6022EA] shadow-[0px_4px_20px_0px_rgba(96,34,234,0.20)] rounded-[80px] gap-[10px] py-[10px] px-[24px] inline-flex transition-all hover:bg-white hover:text-[#6022EA]">Explore</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-[#F6F6F6]">
+    <div class="container max-w-[1320px] px-[12px] mx-auto">
+      <div class="grid lg:grid-cols-2 items-center">
+        <div class="lg:order-1 order-2" data-aos="zoom-in-up">
+          <h2 class="font-konexy font-normal leading-[normal] text-black text-[48px]">Team Full of Stars</h2>
+          <p class="text-[16px] text-black font-gilroy leading-[24px] font-normal pb-[30px]">Suspendisse consequat
+            egestas arcu et et. Viverra quis euismod neque luctus bibendum. Fringilla in nibh fringilla vulputate in.
+            Elit, ultricies vitae pulvinar arcu dignissim ac non rutrum. Lacus tortor sollicitudin risus eget euismod in
+            bibendum turpis. </p>
+          <button class="text-white lg:mb-0 mb-[80px] font-gilroy tex-[16px] font-semibold leading-[24px] bg-[#6022EA] shadow-[0px_4px_20px_0px_rgba(96,34,234,0.20)] rounded-[80px] gap-[10px] py-[10px] px-[24px] inline-flex transition-all hover:bg-white hover:text-[#6022EA]">Explore</button>
+        </div>
+        <div class="lg:order-2 order-1">
+          <img class="w-full translate-y-[-10%] lg:translate-y-[15%]" src="./assets/image/sec7-img.png" alt="sec7-img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container max-w-[1320px] px-[12px] mx-auto pt-[150px]">
+      <div class="lg:flex gap-[41px] items-center">
+        <div data-aos="fade-down-right">
+          <img class="w-full" src="./assets/image/sec8-img.png" alt="sec8-img">
+        </div>
+        <div class="">
+          <p class="text-[#868687] font-gilroy text-[16px] font-normal leading-[normal]">HAVE YOU SEEN OUR MASCOT?</p>
+          <h2 class="text-[48px] font-konexy font-normal text-black leading-[normal]">Success Guides</h2>
+          <div class="flex flex-wrap gap-[10px]">
+            <button class="hover:text-white text-[#6022EA] border border-[#6022EA] transition-all font-gilroy text-[16px] font-semibold leading-[24px] px-[16px] py-[8px] flex gap-[10px] rounded-[80px] hover:bg-[#6022EA]">Category-1</button>
+            <button class="hover:text-white text-[#6022EA] border border-[#6022EA] transition-all font-gilroy text-[16px] font-semibold leading-[24px] px-[16px] py-[8px] flex gap-[10px] rounded-[80px] hover:bg-[#6022EA]">Category-2</button>
+            <button class="hover:text-white text-[#6022EA] border border-[#6022EA] transition-all font-gilroy text-[16px] font-semibold leading-[24px] px-[16px] py-[8px] flex gap-[10px] rounded-[80px] hover:bg-[#6022EA]">Category-3</button>
+            <button class="hover:text-white text-[#6022EA] border border-[#6022EA] transition-all font-gilroy text-[16px] font-semibold leading-[24px] px-[16px] py-[8px] flex gap-[10px] rounded-[80px] hover:bg-[#6022EA]">Category-4</button>
+          </div>
+          <div class="grid md:grid-cols-3 sm:grid-cols-2 pt-[33px] gap-[24px] justify-center">
+            <div
+              class="max-w-[380px]  sm:max-w-[274px] py-[15px] px-[16px] transition-all min-h-[340px] border rounded-[16px] border-[rgba(0,0,0,0.11)] bg-white hover:shadow-[12.11429px_48.45714px_60.57143px_0px_rgba(229,233,246,0.40)]" data-aos="flip-left">
+              <img class="w-full" src="./assets/image/sec8-img2.png" alt="sec8-img2">
+              <p class="text-[#0D0D0] font-gilroy text-[24px] font-semibold leading-[31px] pt-[17px] pb-[10px]">Sit diam
+                metus</p>
+              <p class="text-black font-gilroy text-[16px] opacity-70 font-normal leading-[24px]">Arcu amet, consectetur
+                vel pellentesque mattis ipsum sed mattis sed.</p>
+              <p class="cursor-pointer font-gilroy font-semibold text-[#6022EA] text-[16px] leading-[24px] pt-2">Read
+                More....</p>
+            </div>
+            <div
+              class="max-w-[380px] sm:max-w-[274px] py-[15px] px-[16px] transition-all min-h-[340px] border rounded-[16px] border-[rgba(0,0,0,0.11)] bg-white hover:shadow-[12.11429px_48.45714px_60.57143px_0px_rgba(229,233,246,0.40)]" data-aos="flip-right">
+              <img class="w-full" src="./assets/image/sec8-img2.png" alt="sec8-img2">
+              <p class="text-[#0D0D0] font-gilroy text-[24px] font-semibold leading-[31px] pt-[17px] pb-[10px]">Sit diam
+                metus</p>
+              <p class="text-black font-gilroy text-[16px] opacity-70 font-normal leading-[24px]">Arcu amet, consectetur
+                vel pellentesque mattis ipsum sed mattis sed.</p>
+              <p class="cursor-pointer font-gilroy font-semibold text-[#6022EA] text-[16px] leading-[24px] pt-2">Read
+                More....</p>
+            </div>
+            <div
+              class="max-w-[380px] sm:backdrop:before:max-w-[274px] py-[15px] px-[16px] transition-all min-h-[340px] border rounded-[16px] border-[rgba(0,0,0,0.11)] bg-white hover:shadow-[12.11429px_48.45714px_60.57143px_0px_rgba(229,233,246,0.40)]"  data-aos="flip-left">
+              <img class="w-full" src="./assets/image/sec8-img2.png" alt="sec8-img2">
+              <p class="text-[#0D0D0] font-gilroy text-[24px] font-semibold leading-[31px] pt-[17px] pb-[10px]">Sit diam
+                metus</p>
+              <p class="text-black font-gilroy text-[16px] opacity-70 font-normal leading-[24px]">Arcu amet, consectetur
+                vel pellentesque mattis ipsum sed mattis sed.</p>
+              <p class="cursor-pointer font-gilroy font-semibold text-[#6022EA] text-[16px] leading-[24px] pt-2">Read
+                More....</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container translate-y-[25%] pt-[50px] max-w-[1320px] px-[12px] mx-auto">
+      <div class="w-full rounded-[17px] shadow-[0px_20px_50px_0px_rgba(39,0,124,0.50)] px-[40px] bg-gradient-to-r from-[#5F21E9] via-[#5F21E9] to-[#FA00FF]">
+        <div class="flex flex-wrap justify-between">
+          <div class="">
+            <p class="text-white font-konexy text-[48px] font-normal leading-[normal] pt-[25px] pb-2">Have you</p>
+            <p class="text-[16px] pb-[40px] font-gilroy text-white leading-[31px] font-semibold max-w-[400px]">read our
+              study about Speed and Performance in WordPress?</p>
+          </div>
+          <div class="flex items-center">
+            <button class="rounded-[137px] max-[683px]:mb-[50px] bg-white gap-[10px] inline-flex px-[32px] py-[12px] text-[#6022EA] font-inter leading-[28px] font-semibold text-[19.101px] hover:text-white hover:bg-[#6022EA] transition-all">Check
+              It Out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-black overflow-hidden">
+    <div class="container max-w-[1320px] mx-auto px-3 pt-[140px]">
+      <div class="flex flex-wrap gap-[30px] justify-between">
+        <img src="./assets/image/foot-logo.png" alt="page-logo">
+        <div class="max-w-[381px] flex items-center">
+          <div class="flex justify-between bg-white max-w-[381px] lg:w-[381px] py-[10px] rounded-[80px]">
+            <input
+              class="ml-[21px] outline-none text-[#313131] font-gilroy text-[16px] font-normal leading-[24px] w-full"
+              type="text" placeholder="Search here....">
+            <img class="pr-3 cursor-pointer" src="./assets/image/search-footer.svg" alt="search-footer">
+          </div>
+        </div>
+      </div>
+      <div class="grid min-[1082px]:grid-cols-4 min-[992px]:grid-cols-3 min-[768px]:grid-cols-2 pt-12">
+        <ul>
+          <li class="text-white text-base leading-6 font-normal font-gilrow pb-4">Services</li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow"> WordPress Development</a></li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow">WooCommerce Development</a></li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow"> WordPress Maintenance</a></li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow">Speed Optimization</a></li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow"> Dedicated WordPress Developer</a></li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow"> Headless WordPress Development</a></li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow">White Label Development</a></li>
+        </ul>
+        <ul>
+          <li class="text-white text-base leading-6 font-normal font-gilrow pb-4">Services</li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow"> WordPress Hosting</a></li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow">PSD, XD, Figma to WordPress Conversion</a></li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow"> Custom WordPress Theme</a></li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow">Custom WordPress Plugins</a></li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow"> CMS to WordPress</a></li>
+          <li class="pb-3"><a class="flex text-white text-sm font-normal font-gilrow" href="">
+              <img src="./assets/image/foot-errow.svg" alt="foot-errow">WordPress Malware Removal</a></li>
+        </ul>
+        <ul>
+          <li class="text-white text-base leading-6 font-normal font-gilrow pb-4">Latest Articles</li>
+          <li class="pb-5"><a class="flex text-white text-sm font-normal font-gilrow" href="">7 WordPress
+              Plugins to Create an Effective Newsletter 03.01.2022</a></li>
+          <li class="pb-5"><a class="flex text-white text-sm font-normal font-gilrow" href="">What’s the
+              Perfect Blog Post Length for Your WordPress Site’s SEO?
+              02.01.2022</a></li>
+          <li class="pb-5"><a class="flex text-white text-sm font-normal font-gilrow" href="">5 Reasons the
+              Future of WordPress Is Headless 01.01.2022</a></li>
+          <li class="pb-5"><a class="flex text-white text-sm font-normal font-gilrow" href="">Viptor Says:
+              Vipe Studio’s WordPress Developers Wrap Up the Amazingly Successful 2021 30.12.2021</a></li>
+        </ul>
+        <ul>
+          <li class="text-white text-base leading-6 font-normal font-gilrow pb-4">Contact</li>
+          <li class="pb-7"><a class="flex text-white text-sm font-normal font-gilrow gap-2" href="tel:+1234567890" target="_blank"><img src="./assets/image/call.svg" alt="call">EU: +359 988 993 128</a></li>
+          <li class="pb-7"><a class="flex text-white text-sm font-normal font-gilrow gap-2" href="tel:+1234567890" target="_blank"><img src="./assets/image/call.svg" alt="call">US: +1 (1 888) 266-6917</a></li>
+          <li class="pb-7"><a class="flex text-white text-sm font-normal font-gilrow gap-2" href="https://mail.google.com/mail" target="_blank"><img src="./assets/image/email.svg" alt="email">office@vipestudio.com</a></li>
+          <li class="pb-7"><a class="flex text-white text-sm font-normal font-gilrow gap-2" href="https://www.google.com/maps/place/Srebarna+St+14,+1407+Promishlena+zona+Hladilnika,+Sofia,+Bulgaria/@42.6601642,23.3165917,17.14z/data=!4m6!3m5!1s0x40aa845b4940b4ef:0x645426bf01c2673!8m2!3d42.6602051!4d23.3190496!16s%2Fg%2F11csm5f7r6?entry=ttu" target="_blank"><img src="./assets/image/house.svg" alt="home">14 Srebarna, Sofia 1407, Bulgaria</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="after:flex after:w-[1920px] after:bg-[#4C4C4C] after:h-[1px]"></div>
+    <div class="container max-w-[1320px] mx-auto px-3">
+      <div class="flex flex-wrap gap-[30px] justify-between py-9">
+        <div>
+          <p class="text-white font-gilrow font-normal text-sm pb-3">© Vipe Studio 2016-2022</p>
+          <div class="flex gap-3">
+            <p class="text-white font-gilrow font-normal text-sm border-r border-white pr-2">Privacy</p>
+            <p class="text-white font-gilrow font-normal text-sm border-r border-white pr-2">Careers</p>
+            <p class="text-white font-gilrow font-normal text-sm border-r border-white pr-2">Media</p>
+            <p class="text-white font-gilrow font-normal text-sm">Client Area</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <a href="https://github.com/"><img class="hover:translate-y-[-10px] transition-all"
+              src="./assets/image/github.svg" alt="github"></a>
+          <a href="https://www.linkedin.com/"><img class="hover:translate-y-[-10px] transition-all"
+              src="./assets/image/linkdin.svg" alt="linkdin"></a>
+          <a href="https://twitter.com/"><img class="hover:translate-y-[-10px] transition-all"
+              src="./assets/image/twitr.svg" alt="twitr"></a>
+          <a href="https://www.facebook.com/"><img class="hover:translate-y-[-10px] transition-all"
+              src="./assets/image/fb-icon.svg" alt="fb"></a>
+          <a href="https://www.instagram.com/"><img class="hover:translate-y-[-10px] transition-all"
+              src="./assets/image/insta.svg" alt="insta"></a>
+          <a href="https://wordpress.com/log-in/"><img class="hover:translate-y-[-10px] transition-all"
+              src="./assets/image/world.svg" alt="world"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/app.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init(
+   { once:true,
+    duration:2000,
+  }
+    );
+  </script>
+</body>
+</html>
